@@ -1,0 +1,10 @@
+li{
+	list-style: none;
+	display: inline;
+	margin-left: 10px;
+}
+
+li a:hover{
+	text-decoration: none;
+	
+	}
