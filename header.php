@@ -6,7 +6,7 @@
         <?php wp_head(); ?>
     </head>
 
-    <body>
+    <body data-spy="scroll" data-target="#myScrollspy" data-offset="15">
 <nav class="navbar navbar-inverse" role="navigation">
       <div class="container-fluid">
         <!-- Brand and toggle get grouped for better mobile display -->
@@ -37,4 +37,14 @@
             ?>
         </div>
     </nav>
+<div class="container page-header">
+    <div class="jumbotron">
+  <h1>
+   <?php echo bloginfo('name'); ?>
+    </h1> 
+    <p>
+    <?php echo bloginfo('description');?>
+    </p>
+    </div>
+</div>
 

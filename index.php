@@ -1,14 +1,7 @@
 <?php get_header(); ?>
 
 <div class="container">
-<div class="jumbotron">
-  <h1>
-   <?php echo bloginfo('name'); ?>
-    </h1> 
-    <p>
-    <?php echo bloginfo('description');?>
-    </p>
-</div>
+
 
 <div class="panel-group">
     <?php
@@ -22,7 +15,6 @@
     
    
         <p><?php the_content(); ?> </p>
-        <hr></hr>
     </div>
     </div>
             <?php endwhile;?>
