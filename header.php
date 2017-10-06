@@ -38,7 +38,7 @@
         </div>
     </nav>
 <div class="container page-header">
-    <div class="jumbotron">
+    <div class="jumbotron" style="background:url('<?php header_image()?>');width:100%;height:<?php echo get_custom_header()->height;?>; width:<?php get_custom_header()->width;?>;">
   <h1>
    <?php echo bloginfo('name'); ?>
     </h1> 

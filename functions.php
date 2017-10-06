@@ -32,4 +32,9 @@ function arpan_theme_support(){
     register_nav_menu('secondary','Footer Navigation');
 }
 
+
 add_action('init','arpan_theme_support'); //init or after_setup_theme
+
+add_theme_support('custom-background');
+add_theme_support('custom-header');
+add_theme_support('post-thumbnails');
